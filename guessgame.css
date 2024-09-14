@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header .box {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+header .box #guessNum {
+    display: none;
+}
+
+header .box .inp-grp {
+    border: 2px solid gray;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+header .box .inp-grp #submit {
+    padding: 20px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+
+header .box .inp-grp input {
+    border: none;
+    width: 77.19%;
+    padding: 18px 5px;
+    font-size: 16px;
+}
+
+header .box .inp-grp input:focus {
+    outline: 0;
+}
